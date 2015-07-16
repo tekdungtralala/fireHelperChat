@@ -1,0 +1,33 @@
+{
+  "name": "fireChatHelper",
+  "version": "0.1",
+  "authors": [
+    "tekdungtralala <tekdung554@gmail.com>"
+  ],
+  "description": "simple live helper chat application that uses firebase as a backend",
+  "main": "webapp/index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "live",
+    "chat",
+    "helper",
+    "firebase"
+  ],
+  "license": "MIT",
+  "homepage": "https://firehelperchat.firebaseapp.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "webapp/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5"
+  }
+}
