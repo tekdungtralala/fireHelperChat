@@ -1,0 +1,12 @@
+<div>
+	<div ng-repeat="(id, cs) in custServices">
+		{{id}} : {{cs.username}} & {{cs.password}}
+		<button ng-click="vm.remove(id)">remove</button>
+		<button ng-click="vm.update(id)">update</button>
+		<br/>
+	</div>
+</div>
+username : <input type="text" ng-model="vm.newCS.username"/><br/>
+password <input type="password" ng-model="vm.newCS.password"/><br/>
+re-password <input type="password" ng-model="vm.newCS.repassword"/><br/>
+<button ng-click="vm.save()"> save</button>

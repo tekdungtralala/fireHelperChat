@@ -1,0 +1,10 @@
+#page-wrapper {
+	margin-left: 0px;
+}
+#panelForm {
+	max-width: 400px;
+}
+#panelChat {
+	max-width: 400px;
+	display: none;
+}

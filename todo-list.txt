@@ -1,10 +1,35 @@
 todo-list.txt
 
 administrator
-	* signin using firebase account
+	* create/delete cs
 	
 customerservice
 client
 	jquery
 	angularjs
 	reactjs
+
+
+firehelperchat : {
+	customerservice : {
+		objectid123456 : {
+			name: ...
+			password: ...
+		}
+	},
+	client: {
+		objectid123456: {
+			name: ...
+			email: ...
+			website: ...
+		}
+	},
+	chat: {
+		objectid123456: {
+			userId: ...
+			userType: ...
+			timestamp: ...
+			text: ...
+		}
+	}
+}

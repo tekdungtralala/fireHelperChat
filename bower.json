@@ -28,6 +28,9 @@
   "dependencies": {
     "angular": "~1.4.3",
     "angular-ui-router": "~0.2.15",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "lodash": "~3.10.0",
+    "mustache": "~2.1.2",
+    "momentjs": "~2.10.3"
   }
 }
